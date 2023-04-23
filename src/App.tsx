@@ -1,4 +1,4 @@
-import { SharePopup } from './SharePopUp'
+import {SharePopup} from './SharePopup'
 
 export default function App() {
 	return (
