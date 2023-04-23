@@ -1,4 +1,4 @@
-import { Share } from './Share'
+import { SharePopup } from './SharePopUp'
 
 export default function App() {
 	return (
@@ -33,7 +33,7 @@ export default function App() {
 								28 Jun 2020
 							</span>
 						</div>
-						<div className='group peer relative mb-[1px] ml-auto w-8 h-8 bg-lightGrayishBlue rounded-full grid place-items-center cursor-pointer hover:bg-desaturatedDarkBlue transition'>
+						<div className='group relative mb-[1px] ml-auto w-8 h-8 bg-lightGrayishBlue rounded-full grid place-items-center cursor-pointer hover:bg-desaturatedDarkBlue transition'>
 							<svg
 								className='fill-[#6E8098] group-hover:fill-white transition'
 								xmlns='http://www.w3.org/2000/svg'
@@ -42,7 +42,7 @@ export default function App() {
 							>
 								<path d='M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z' />
 							</svg>
-							<Share />
+							<SharePopup />
 						</div>
 					</div>
 				</div>

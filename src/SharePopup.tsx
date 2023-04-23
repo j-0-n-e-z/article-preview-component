@@ -5,7 +5,7 @@ import {
 	faPinterest
 } from '@fortawesome/free-brands-svg-icons'
 
-export const Share = () => {
+export const SharePopup = () => {
 	return (
 		<div className='cursor-auto hidden group-hover:block absolute bottom-[20px] h-24'>
 			<div className='flex px-[38px] items-center relative w-[250px] h-[55px] bg-veryDarkGrayishBlue rounded-xl text-lightGrayishBlue'>
