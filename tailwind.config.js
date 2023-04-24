@@ -9,9 +9,6 @@ export default {
 				grayishBlue: 'hsl(212, 23%, 69%)',
 				lightGrayishBlue: 'hsl(210, 46%, 95%)'
 			},
-			backgroundImage: {
-				drawers: 'url(./assets/images/drawers.jpg)'
-			},
 			letterSpacing: {
 				lightlyWide: '0.007rem'
 			}
