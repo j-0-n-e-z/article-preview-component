@@ -32,9 +32,9 @@ export default function App() {
 									/>
 								</div>
 								<div className='flex flex-col ml-4 pt-[1px]'>
-									<span className='text-veryDarkGrayishBlue text-[13px] font-bold tracking-lightlyWide'>
+									<h3 className='text-veryDarkGrayishBlue text-[13px] font-bold tracking-lightlyWide'>
 										Michelle Appleton
-									</span>
+									</h3>
 									<span className='text-grayishBlue text-[12px] tracking-wider lg:mt-0 mt-[2px]'>
 										28 Jun 2020
 									</span>
@@ -42,7 +42,7 @@ export default function App() {
 							</article>
 							<div
 								className='-mr-1 grid place-items-center group w-11 h-11 outline-none focus:border-2 border-veryDarkGrayishBlue rounded-full border-dotted'
-								tabIndex={1}
+								tabIndex={0}
 							>
 								<ShareIcon />
 								<SharePopup />
