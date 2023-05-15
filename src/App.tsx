@@ -32,9 +32,9 @@ export default function App() {
 									/>
 								</div>
 								<div className='flex flex-col ml-4 pt-[1px]'>
-									<h3 className='text-veryDarkGrayishBlue text-[13px] font-bold tracking-lightlyWide'>
+									<h2 className='text-veryDarkGrayishBlue text-[13px] font-bold tracking-lightlyWide'>
 										Michelle Appleton
-									</h3>
+									</h2>
 									<span className='text-grayishBlue text-[12px] tracking-wider lg:mt-0 mt-[2px]'>
 										28 Jun 2020
 									</span>
